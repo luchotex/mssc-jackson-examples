@@ -11,9 +11,9 @@ import org.springframework.test.context.ActiveProfiles;
  * @author Luis M. Kupferberg Ruiz (lkupferberg@overactive.com)
  * @created 2020-07-16 23:11
  */
-@ActiveProfiles("snake")
+@ActiveProfiles("kebab")
 @JsonTest
-public class BeerDtoSnakeTest extends BaseTest {
+public class BeerDtoKebabTest extends BaseTest {
 
   @Test
   void snakeTest() throws JsonProcessingException {

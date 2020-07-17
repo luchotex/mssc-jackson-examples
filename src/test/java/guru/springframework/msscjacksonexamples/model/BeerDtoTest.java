@@ -11,8 +11,6 @@ import java.io.IOException;
 @JsonTest
 class BeerDtoTest extends BaseTest {
 
-  @Autowired private ObjectMapper objectMapper;
-
   @Test
   void serializeDtoTest() throws JsonProcessingException {
     BeerDto beerDto = getDto();
